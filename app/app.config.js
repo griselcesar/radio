@@ -7,11 +7,11 @@ angular.module('tanek',['ngRoute'])
 			})
 			.when('/radio',{
 				controller:"radio",
-				templateUrl:"vistas/radio"
+				templateUrl:"vistas/radio.html"
 			})
 			.when('/tv',{
 				controller:"tv",
-				templateUrl:"vistas/tv"
+				templateUrl:"vistas/tv.html"
 			})
 			.when('/404',{
 				controller:"404",
